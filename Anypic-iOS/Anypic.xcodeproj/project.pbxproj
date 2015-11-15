@@ -240,7 +240,6 @@
 				09ABC07713A1D52D009C3FCF /* Anypic */,
 				09ABC07013A1D52D009C3FCF /* Frameworks */,
 				09ABC06E13A1D52D009C3FCF /* Products */,
-				2614EBD1DF91C096CAC9F534 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -316,13 +315,6 @@
 				C4F102DF156C58440061BC3E /* Entitlements.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2614EBD1DF91C096CAC9F534 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		74A504E21565F0C200CFA4E3 /* UITableViewCells */ = {
