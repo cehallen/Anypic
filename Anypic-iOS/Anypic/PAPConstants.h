@@ -6,6 +6,17 @@
 //  Copyright (c) 2013 Parse. All rights reserved.
 //
 
+// ca01 ----
+
+//  http://stackoverflow.com/questions/538996/constants-in-objective-c for info on constants.  this extern way of doing slightly better than the 'define' way since doesn't cause rebuild of entire program.  #define is a preprocessor alternative, before compiling..  so that's why you need to rebuild the whole app upon changing.  may be bad for actual production apps?  I guess that's their beef. either way, both methods work.
+// eg of define way: #define PREFS_MY_CONSTANT @"prefs_my_constant";  (in the .h file)  but I like this way here in anypic as you can just include this .h file anywhere you need the constants.
+// what about static methods?  looks like they are all in PAPUtility, while constants are here.  what is a static method anyway?  it's basically a class method.. but this article says they are VERY DIFFERENT!  er.  well, to me...  they're similar.  http://stackoverflow.com/questions/8089186/whats-the-difference-between-class-method-and-static-method.  throwing around words like swizzle.. etc.  maybe for another day.
+// reminder of class method.  "to send a method to a class, you put the name of the class as the receiver in the message expression"  -->  [MyClass classMethod];
+// declared as:  -->   + (void)classMethod;
+
+// ----
+
+
 typedef enum {
 	PAPHomeTabBarItemIndex = 0,
 	PAPEmptyTabBarItemIndex = 1,

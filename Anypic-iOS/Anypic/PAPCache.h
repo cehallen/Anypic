@@ -6,6 +6,12 @@
 //  Copyright (c) 2013 Parse. All rights reserved.
 //
 
+// ca01 ----
+// abt this class, from anypic website tut:
+// "It provides Anypic with custom caching behavior used to quickly display up to date information about photos. When the current user likes or comments on a given photo, we manually update the local cache as soon as the request is sent. This allows us to propagate the model change throughout the app without needing to wait for the initial save request to finish and then refreshing the content.''
+
+// ----
+
 #import <Foundation/Foundation.h>
 
 @interface PAPCache : NSObject
